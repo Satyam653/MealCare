@@ -1,0 +1,22 @@
+import React from 'react';
+import "./footer.css"
+export default function Footer(){
+    return(
+        <>
+        <div class = "f-info" >
+        <div class = "f-info-socials">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class = "f-info-brand">&copy; MealCare Private Limited</div>
+        <div class = "f-info-links">
+            <a href = "/privacy">Privacy</a>
+            <a href = "/terms">Terms</a>
+        </div>
+        </div>
+        </>
+   
+    )
+
+}

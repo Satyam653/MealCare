@@ -1,0 +1,41 @@
+.home{
+    margin-left : 55rem !important;
+    opacity : 1;
+    height : 2.5rem;
+    padding : 0.5rem 0 0.75rem 0;
+    margin-bottom : 3.2rem;
+    display : flex;
+    flex-wrap: wrap;
+    font-weight: 600;
+    margin-right : 2rem;
+    
+}.home:hover{
+    opacity : 1;
+   
+}
+.current{
+    font-weight: 600; 
+    opacity : 1;
+    height : 2.5rem;
+    padding : 0.5rem 0 0.75rem 0;
+    margin : 1.2rem 0 1.25rem 0;
+    display : flex;
+    flex-wrap: wrap;
+    margin-right : 7rem;
+}.curr:hover{
+    opacity : 1;
+   
+}.icon{ 
+    margin-left : 2rem;
+    font-weight : 800;
+}
+
+.nav-item a{
+   font-size: 14px;
+   font-weight : 600;
+ transition: 500ms;
+}.nav-item a:hover{
+    font-size : 15px;
+    
+    font-weight : 700;
+}
